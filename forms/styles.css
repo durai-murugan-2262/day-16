@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eef0ec;
+  color: #456268;
+}
+
+.span {
+  font-weight: lighter;
+  font-style: italic;
+}
+button {
+  background-color: #79a3b1;
+}
+
+table {
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.margin {
+  margin: 3%;
+}
+
+@media screen and( min-width:567px) {
+  .modified {
+    width: 100%;
+  }
+}
